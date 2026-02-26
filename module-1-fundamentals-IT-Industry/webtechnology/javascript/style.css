@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(135deg, #fc8c03, #ffb347);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+button{
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: #222;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+button:hover{
+    background-color: white;
+    color: #fc8c03;
+    transform: scale(1.05);
+}
